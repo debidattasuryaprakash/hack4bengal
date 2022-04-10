@@ -1,0 +1,173 @@
+#home{
+    margin-top: 100px;
+}
+
+.bannner{
+    width: 100%;
+    position: relative;
+    
+}
+
+.bannner .bottom-gradient{
+    position: absolute;
+    bottom: -105px;
+    left: 20%;
+}
+
+.bannner .act-now{
+    position: absolute;
+    margin: 0px;
+    top: 4%;
+    left: 13%;
+}
+
+.bannner .act-now p{
+    font-weight: 800;
+    font-size: 70px;
+    margin: 0px;
+    color: rgb(241, 240, 247);
+    /* transform: rotate(270deg); */
+
+}
+
+.bannner .bannner-main{
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
+
+.bannner .bannner-main .bannner-body{
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.bannner .bannner-main .bannner-light{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.3);
+    left: 2%;
+    bottom: -13%;
+    margin-bottom: 0px;
+}
+
+.bannner .bannner-body .bannner-right{
+    width: 40%;
+}
+
+.bannner .bannner-body .bannner-right img{
+    align-self: flex-end;
+    width: 95%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+}
+
+
+
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+}
+
+
+.bannner .bannner-body .bannner-left{
+    width: 60%;
+}
+
+.bannner .bannner-body .bannner-left h1{
+    font-size: 90px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    /* color: rgb(37, 37, 37); */
+
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+.bannner .bannner-body .bannner-left h2{
+    margin-top: 0px;
+    line-height: 2.7rem;
+    color: rgb(56, 56, 56);
+    font-size: 35px;
+}
+
+.bannner .bannner-body .bannner-left p{
+    margin-top: 0px;
+    width: 85%;
+    color: rgb(54, 53, 53);
+    font-size: 14.5px;
+    line-height: 1.5rem;
+}
+
+.bannner .bannner-body .bannner-left p span{
+    font-weight: 600;
+}
+
+
+.bannner .bannner-body .bannner-left .bannner-button{
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+}
+
+
+
+.bannner .bannner-body .bannner-left button{
+    width: 210px;
+    margin-top: 25px;
+    padding: 10px 0px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.bannner .bannner-body .bannner-left .bannner-button .sponsor-us{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: rgb(54, 53, 53);
+}
+
+.bannner .bannner-body .bannner-left .bannner-button .sponsor-us:hover{
+    cursor: pointer;
+}
+
+
+.bannner  .bannner-body .bannner-left .sponsors{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.bannner  .bannner-body .bannner-left .sponsors img{
+    margin-right: 20px;
+}
+
+.bannner  .bannner-body .bannner-left .sponsors .github{
+    width: 80px;
+}
+
+.bannner  .bannner-body .bannner-left .sponsors .stickermule{
+    width: 100px;
+}
+
+.bannner  .bannner-body .bannner-left .sponsors p{
+    font-weight: 800;
+    color: #464747;
+    font-size: 14px;
+    margin-top: 15px;
+}
